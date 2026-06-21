@@ -1,0 +1,14 @@
+# TestPrep Admissions — robots
+User-agent: *
+Allow: /
+Allow: /ulkeler
+Allow: /universiteler
+Allow: /programlar
+Disallow: /admin
+Disallow: /dashboard
+Disallow: /profil
+Disallow: /essay
+Disallow: /api
+# review_only / hidden generated data is not promoted as verified pages.
+
+Sitemap: https://testprep-admissions.example/sitemap.xml

@@ -1,0 +1,35 @@
+{
+  "name": "testprep-admissions",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Kaynak-öncelikli, denetim-öncelikli küresel üniversite kabul zekâsı (Türkçe-öncelikli).",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "data:countries": "python3 scripts/country_master_data.py && python3 scripts/build_countries_ts.py",
+    "data:universities": "python3 scripts/build_universities_from_seed.py",
+    "ingest:universities": "python3 scripts/ingest_universities.py",
+    "export:universities": "python3 scripts/export_universities.py",
+    "ingest:programs": "python3 scripts/run_program_ingestion_batch.py",
+    "audit": "python3 scripts/audit_countries.py && python3 scripts/audit_universities.py && python3 scripts/audit_programs.py",
+    "gates": "python3 scripts/quality_gates.py",
+    "calibrate": "python3 scripts/build_review_calibration.py"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.0",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "autoprefixer": "10.4.19",
+    "postcss": "8.4.39",
+    "tailwindcss": "3.4.7",
+    "typescript": "5.5.4"
+  }
+}

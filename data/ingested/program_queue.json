@@ -1,0 +1,1906 @@
+[
+  {
+    "university_id": "u-nl-university-of-amsterdam",
+    "university_name": "University of Amsterdam",
+    "country_code": "NL",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.uva.nl",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-leiden-university",
+    "university_name": "Leiden University",
+    "country_code": "NL",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.universiteitleiden.nl",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-delft-university-of-technology",
+    "university_name": "Delft University of Technology",
+    "country_code": "NL",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.tudelft.nl",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-bogazici-university",
+    "university_name": "Boğaziçi University",
+    "country_code": "TR",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.boun.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-istanbul-technical-university",
+    "university_name": "Istanbul Technical University",
+    "country_code": "TR",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.itu.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-koc-university",
+    "university_name": "Koç University",
+    "country_code": "TR",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.ku.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-sabanc-university",
+    "university_name": "Sabancı University",
+    "country_code": "TR",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.sabanciuniv.edu",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-middle-east-technical-university",
+    "university_name": "Middle East Technical University",
+    "country_code": "TR",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.metu.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-us-harvard-university",
+    "university_name": "Harvard University",
+    "country_code": "US",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.harvard.edu",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-us-massachusetts-institute-of-technology",
+    "university_name": "Massachusetts Institute of Technology",
+    "country_code": "US",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.mit.edu",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-us-stanford-university",
+    "university_name": "Stanford University",
+    "country_code": "US",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.stanford.edu",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-us-yale-university",
+    "university_name": "Yale University",
+    "country_code": "US",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.yale.edu",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-us-princeton-university",
+    "university_name": "Princeton University",
+    "country_code": "US",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.princeton.edu",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-us-columbia-university",
+    "university_name": "Columbia University",
+    "country_code": "US",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.columbia.edu",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-us-university-of-california-berkeley",
+    "university_name": "University of California, Berkeley",
+    "country_code": "US",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.berkeley.edu",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-us-university-of-california-los-angeles",
+    "university_name": "University of California, Los Angeles",
+    "country_code": "US",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.ucla.edu",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-us-university-of-chicago",
+    "university_name": "University of Chicago",
+    "country_code": "US",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.uchicago.edu",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-us-university-of-michigan",
+    "university_name": "University of Michigan",
+    "country_code": "US",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://umich.edu",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-us-cornell-university",
+    "university_name": "Cornell University",
+    "country_code": "US",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.cornell.edu",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-us-new-york-university",
+    "university_name": "New York University",
+    "country_code": "US",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.nyu.edu",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-gb-university-of-oxford",
+    "university_name": "University of Oxford",
+    "country_code": "GB",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.ox.ac.uk",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-gb-university-of-cambridge",
+    "university_name": "University of Cambridge",
+    "country_code": "GB",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.cam.ac.uk",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-gb-imperial-college-london",
+    "university_name": "Imperial College London",
+    "country_code": "GB",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.imperial.ac.uk",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-gb-university-college-london",
+    "university_name": "University College London",
+    "country_code": "GB",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.ucl.ac.uk",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-gb-london-school-of-economics-and-political-science",
+    "university_name": "London School of Economics and Political Science",
+    "country_code": "GB",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.lse.ac.uk",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-gb-university-of-edinburgh",
+    "university_name": "University of Edinburgh",
+    "country_code": "GB",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.ed.ac.uk",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-gb-king-s-college-london",
+    "university_name": "King's College London",
+    "country_code": "GB",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.kcl.ac.uk",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-gb-university-of-manchester",
+    "university_name": "University of Manchester",
+    "country_code": "GB",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.manchester.ac.uk",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-gb-university-of-warwick",
+    "university_name": "University of Warwick",
+    "country_code": "GB",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://warwick.ac.uk",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-gb-university-of-bristol",
+    "university_name": "University of Bristol",
+    "country_code": "GB",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.bristol.ac.uk",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-ca-university-of-toronto",
+    "university_name": "University of Toronto",
+    "country_code": "CA",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.utoronto.ca",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-ca-university-of-british-columbia",
+    "university_name": "University of British Columbia",
+    "country_code": "CA",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.ubc.ca",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-ca-mcgill-university",
+    "university_name": "McGill University",
+    "country_code": "CA",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.mcgill.ca",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-ca-university-of-waterloo",
+    "university_name": "University of Waterloo",
+    "country_code": "CA",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://uwaterloo.ca",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-ca-university-of-alberta",
+    "university_name": "University of Alberta",
+    "country_code": "CA",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.ualberta.ca",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-de-technical-university-of-munich",
+    "university_name": "Technical University of Munich",
+    "country_code": "DE",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.tum.de",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-de-ludwig-maximilian-university-of-munich",
+    "university_name": "Ludwig Maximilian University of Munich",
+    "country_code": "DE",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.lmu.de",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-de-heidelberg-university",
+    "university_name": "Heidelberg University",
+    "country_code": "DE",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.uni-heidelberg.de",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-de-humboldt-university-of-berlin",
+    "university_name": "Humboldt University of Berlin",
+    "country_code": "DE",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.hu-berlin.de",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-de-rwth-aachen-university",
+    "university_name": "RWTH Aachen University",
+    "country_code": "DE",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.rwth-aachen.de",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-de-free-university-of-berlin",
+    "university_name": "Free University of Berlin",
+    "country_code": "DE",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.fu-berlin.de",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-ch-eth-zurich",
+    "university_name": "ETH Zurich",
+    "country_code": "CH",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://ethz.ch",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-ch-epfl",
+    "university_name": "EPFL",
+    "country_code": "CH",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.epfl.ch",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-ch-university-of-zurich",
+    "university_name": "University of Zurich",
+    "country_code": "CH",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.uzh.ch",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-au-university-of-melbourne",
+    "university_name": "University of Melbourne",
+    "country_code": "AU",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.unimelb.edu.au",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-au-university-of-sydney",
+    "university_name": "University of Sydney",
+    "country_code": "AU",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.sydney.edu.au",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-au-australian-national-university",
+    "university_name": "Australian National University",
+    "country_code": "AU",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.anu.edu.au",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-au-university-of-new-south-wales",
+    "university_name": "University of New South Wales",
+    "country_code": "AU",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.unsw.edu.au",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-sg-national-university-of-singapore",
+    "university_name": "National University of Singapore",
+    "country_code": "SG",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.nus.edu.sg",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-sg-nanyang-technological-university",
+    "university_name": "Nanyang Technological University",
+    "country_code": "SG",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.ntu.edu.sg",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-jp-university-of-tokyo",
+    "university_name": "University of Tokyo",
+    "country_code": "JP",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.u-tokyo.ac.jp",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-hk-university-of-hong-kong",
+    "university_name": "University of Hong Kong",
+    "country_code": "HK",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.hku.hk",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-ie-trinity-college-dublin",
+    "university_name": "Trinity College Dublin",
+    "country_code": "IE",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.tcd.ie",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-ie-university-college-dublin",
+    "university_name": "University College Dublin",
+    "country_code": "IE",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.ucd.ie",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-fr-sciences-po",
+    "university_name": "Sciences Po",
+    "country_code": "FR",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.sciencespo.fr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-fr-sorbonne-university",
+    "university_name": "Sorbonne University",
+    "country_code": "FR",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.sorbonne-universite.fr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-fr-psl-university",
+    "university_name": "PSL University",
+    "country_code": "FR",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://psl.eu",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-it-bocconi-university",
+    "university_name": "Bocconi University",
+    "country_code": "IT",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.unibocconi.it",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-it-politecnico-di-milano",
+    "university_name": "Politecnico di Milano",
+    "country_code": "IT",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.polimi.it",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-it-sapienza-university-of-rome",
+    "university_name": "Sapienza University of Rome",
+    "country_code": "IT",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.uniroma1.it",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-be-ku-leuven",
+    "university_name": "KU Leuven",
+    "country_code": "BE",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.kuleuven.be",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-se-karolinska-institute",
+    "university_name": "Karolinska Institute",
+    "country_code": "SE",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://ki.se",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-se-kth-royal-institute-of-technology",
+    "university_name": "KTH Royal Institute of Technology",
+    "country_code": "SE",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.kth.se",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-se-lund-university",
+    "university_name": "Lund University",
+    "country_code": "SE",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.lunduniversity.lu.se",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-dk-university-of-copenhagen",
+    "university_name": "University of Copenhagen",
+    "country_code": "DK",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.ku.dk",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-no-university-of-oslo",
+    "university_name": "University of Oslo",
+    "country_code": "NO",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.uio.no",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-at-university-of-vienna",
+    "university_name": "University of Vienna",
+    "country_code": "AT",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.univie.ac.at",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-es-university-of-barcelona",
+    "university_name": "University of Barcelona",
+    "country_code": "ES",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.ub.edu",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-es-complutense-university-of-madrid",
+    "university_name": "Complutense University of Madrid",
+    "country_code": "ES",
+    "crawl_tier": "tier_0_curated",
+    "seed_url": "https://www.ucm.es",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-vrije-universiteit-amsterdam",
+    "university_name": "Vrije Universiteit Amsterdam",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.vu.nl",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-university-of-groningen",
+    "university_name": "University of Groningen",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.rug.nl",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-maastricht-university",
+    "university_name": "Maastricht University",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.maastrichtuniversity.nl",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-radboud-university",
+    "university_name": "Radboud University",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.ru.nl",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-erasmus-university-rotterdam",
+    "university_name": "Erasmus University Rotterdam",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.eur.nl",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-tilburg-university",
+    "university_name": "Tilburg University",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.tilburguniversity.edu",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-utrecht-university",
+    "university_name": "Utrecht University",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.uu.nl",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-eindhoven-university-of-technology",
+    "university_name": "Eindhoven University of Technology",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.tue.nl",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-university-of-twente",
+    "university_name": "University of Twente",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.utwente.nl",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-wageningen-university-research",
+    "university_name": "Wageningen University & Research",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.wur.nl",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-open-university-in-the-netherlands",
+    "university_name": "Open University in the Netherlands",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.ou.nl",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-university-of-humanistic-studies",
+    "university_name": "University of Humanistic Studies",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.uvh.nl",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-nyenrode-business-university",
+    "university_name": "Nyenrode Business University",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.nyenrode.nl",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-amsterdam-university-of-applied-sciences",
+    "university_name": "Amsterdam University of Applied Sciences",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.hva.nl",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-the-hague-university-of-applied-sciences",
+    "university_name": "The Hague University of Applied Sciences",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.thehagueuniversity.com",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-rotterdam-university-of-applied-sciences",
+    "university_name": "Rotterdam University of Applied Sciences",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.hogeschoolrotterdam.nl",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-fontys-university-of-applied-sciences",
+    "university_name": "Fontys University of Applied Sciences",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.fontys.edu",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-hanze-university-of-applied-sciences",
+    "university_name": "Hanze University of Applied Sciences",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.hanze.nl",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-saxion-university-of-applied-sciences",
+    "university_name": "Saxion University of Applied Sciences",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.saxion.edu",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-design-academy-eindhoven",
+    "university_name": "Design Academy Eindhoven",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.designacademy.nl",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-nl-gerrit-rietveld-academie",
+    "university_name": "Gerrit Rietveld Academie",
+    "country_code": "NL",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://rietveldacademie.nl",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-istanbul-university",
+    "university_name": "Istanbul University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.istanbul.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-istanbul-university-cerrahpasa",
+    "university_name": "Istanbul University-Cerrahpaşa",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.iuc.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-marmara-university",
+    "university_name": "Marmara University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.marmara.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-yldz-technical-university",
+    "university_name": "Yıldız Technical University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.yildiz.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-galatasaray-university",
+    "university_name": "Galatasaray University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.gsu.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-mimar-sinan-fine-arts-university",
+    "university_name": "Mimar Sinan Fine Arts University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.msgsu.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-istanbul-medeniyet-university",
+    "university_name": "Istanbul Medeniyet University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.medeniyet.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-turkish-german-university",
+    "university_name": "Turkish-German University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.tau.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-bahcesehir-university",
+    "university_name": "Bahçeşehir University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.bau.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-acbadem-university",
+    "university_name": "Acıbadem University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.acibadem.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-kadir-has-university",
+    "university_name": "Kadir Has University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.khas.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-ozyegin-university",
+    "university_name": "Özyeğin University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.ozyegin.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-istanbul-medipol-university",
+    "university_name": "Istanbul Medipol University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.medipol.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-ankara-university",
+    "university_name": "Ankara University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.ankara.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-gazi-university",
+    "university_name": "Gazi University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.gazi.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-hacettepe-university",
+    "university_name": "Hacettepe University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.hacettepe.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-ankara-yldrm-beyazt-university",
+    "university_name": "Ankara Yıldırım Beyazıt University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.aybu.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-social-sciences-university-of-ankara",
+    "university_name": "Social Sciences University of Ankara",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.asbu.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-bilkent-university",
+    "university_name": "Bilkent University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.bilkent.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-baskent-university",
+    "university_name": "Başkent University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.baskent.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-atlm-university",
+    "university_name": "Atılım University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.atilim.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-cankaya-university",
+    "university_name": "Çankaya University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.cankaya.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-tobb-university-of-economics-and-technology",
+    "university_name": "TOBB University of Economics and Technology",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.etu.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-ted-university",
+    "university_name": "TED University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.tedu.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-anadolu-university",
+    "university_name": "Anadolu University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.anadolu.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-cukurova-university",
+    "university_name": "Çukurova University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.cu.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-ege-university",
+    "university_name": "Ege University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.ege.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-dokuz-eylul-university",
+    "university_name": "Dokuz Eylül University",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.deu.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  },
+  {
+    "university_id": "u-tr-izmir-institute-of-technology",
+    "university_name": "İzmir Institute of Technology",
+    "country_code": "TR",
+    "crawl_tier": "tier_2_priority",
+    "seed_url": "https://www.iyte.edu.tr",
+    "candidate_paths": [
+      "/en/education/programmes",
+      "/study",
+      "/programs",
+      "/courses",
+      "/en/study",
+      "/academics"
+    ],
+    "status": "pending"
+  }
+]

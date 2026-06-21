@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-06-20T21:28:33Z",
+  "needs_review_by_country": {
+    "TR": 34,
+    "NL": 24,
+    "US": 12,
+    "GB": 10,
+    "DE": 6,
+    "CA": 5,
+    "AU": 4,
+    "CH": 3,
+    "FR": 3,
+    "IT": 3,
+    "SE": 3,
+    "SG": 2,
+    "IE": 2,
+    "ES": 2,
+    "JP": 1,
+    "HK": 1,
+    "BE": 1,
+    "DK": 1,
+    "NO": 1,
+    "AT": 1
+  },
+  "by_confidence_band": {
+    "yüksek (>=0.8)": 69,
+    "orta (0.5-0.8)": 50,
+    "düşük (<0.5)": 0
+  }
+}
