@@ -33,7 +33,7 @@ npm run dev          # http://localhost:3000
 ```bash
 npm run data:countries        # ISO 3166 -> countries.master.json + countries.ts
 npm run data:universities     # gerçek seed -> generated TS (offline)
-npm run ingest:universities -- --countries NL TR DE GB CA   # ölçekleme (ağ)
+npm run ingest:universities -- --countries NL TR DE GB CA   # ROR'dan ölçekleme (ağ)
 npm run export:universities   # ingested -> generated TS (non-destructive)
 npm run ingest:programs       # program boru hattı (ağ)
 npm run audit                 # bütünlük denetimleri

@@ -5,22 +5,30 @@ ingest_universities.py
 Scale the REAL data approach to every country.
 
 For each requested country it:
-  1. fetches an authoritative "List of universities in <country>" page
-     (cache-first) — the same method used to seed NL & TR by hand,
-  2. parses institution rows (name, city, type) from the wiki tables,
+  1. fetches authoritative institution identity (cache-first),
+  2. extracts institution rows (name, city, type, official website, source id),
   3. normalizes -> classifies -> dedupes,
   4. exports data/ingested/universities.<cc>.json (machine master).
+
+Sources (--source):
+  ror       DEFAULT, RECOMMENDED. ROR (Research Organization Registry): a
+            governed, curated, openly-licensed registry with STABLE identifiers
+            and official websites — a reliable provenance anchor.
+  wikidata  community-edited fallback (SPARQL; see fetch_wikidata.py).
+  wikipedia community-edited fallback ("List of universities in <country>").
+Community-edited sources are kept only as fallbacks: anyone can change them, so
+they are weaker provenance for source-first admissions data.
 
 The TS generation step (export_universities.py) merges these batches into
 src/lib/data/universities/generated/ WITHOUT touching curated overrides.
 
 USAGE
-  python scripts/ingest_universities.py --countries NL TR DE GB CA
-  python scripts/ingest_universities.py --all          # all 207 master countries
+  python scripts/ingest_universities.py --countries NL TR DE GB CA   # ROR (default)
+  python scripts/ingest_universities.py --all                        # all 207 countries
   python scripts/ingest_universities.py --source wikidata --countries DE
 
-NETWORK REQUIRED for cache misses. Run locally / in CI with egress enabled.
-Wikidata path uses SPARQL (see fetch_wikidata.py); default path uses Wikipedia.
+NETWORK REQUIRED for cache misses. Run locally / in CI with egress enabled
+(allow api.ror.org for the default source).
 """
 from __future__ import annotations
 import argparse, re, sys, os
@@ -72,18 +80,24 @@ def normalize(rec: dict, curated: set[str]) -> dict:
     visible = cat in {"curated_university", "university", "college", "institute", "academy", "school"}
     priority = {"curated_university": 0, "university": 1, "college": 2, "institute": 2, "academy": 3}.get(cat, 4)
     name, cc = rec["name"], rec["country_code"]
+    # Source-aware provenance: prefer the fetcher-supplied source (e.g. ROR's stable
+    # identifier + official website) and only fall back to the Wikipedia list URL.
+    website = rec.get("_website") or ic.NEEDS
+    source_url = rec.get("_source_url") or country_url(rec["country_name"], cc)
+    source_title = rec.get("_source_title") or "Wikipedia üniversite listesi (kimlik)"
+    source_type = rec.get("_source_type") or "reference_list"
     return {
         "id": f"u-{cc.lower()}-{ic.slugify(name)}", "name": name, "slug": ic.slugify(name),
         "country_code": cc, "country_name": rec["country_name"], "city": rec["city"],
-        "type": rec["raw_type"], "website_url": ic.NEEDS, "admissions_url": ic.NEEDS,
+        "type": rec["raw_type"], "website_url": website, "admissions_url": ic.NEEDS,
         "application_platforms": [ic.NEEDS], "popular_program_areas": [ic.NEEDS],
         "general_international_admission_notes": ic.NEEDS, "testing_notes": ic.NEEDS,
         "english_proficiency_notes": ic.NEEDS, "essay_requirement_notes": ic.NEEDS,
         "scholarship_notes": ic.NEEDS,
-        "source_url": country_url(rec["country_name"], cc), "source_title": "Wikipedia üniversite listesi (kimlik)",
-        "source_type": "reference_list", "last_checked_at": ic.now_iso(), "next_review_at": ic.next_review_iso(),
+        "source_url": source_url, "source_title": source_title,
+        "source_type": source_type, "last_checked_at": ic.now_iso(), "next_review_at": ic.next_review_iso(),
         "source_status": "needs_review", "confidence_score": conf, "needs_human_review": True,
-        "review_status": "needs_review", "reviewer_notes": "Kimlik listeden; kabul detayları doğrulanmadı.",
+        "review_status": "needs_review", "reviewer_notes": "Kimlik kaynaktan; kabul detayları doğrulanmadı.",
         "institution_category": cat, "directory_priority": priority,
         "public_visibility": "visible" if visible else "review_only",
         "admissions_data_priority": priority, "classification_reason": reason,
@@ -105,7 +119,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--countries", nargs="*", default=[])
     ap.add_argument("--all", action="store_true")
-    ap.add_argument("--source", choices=["wikipedia", "wikidata"], default="wikipedia")
+    ap.add_argument("--source", choices=["ror", "wikidata", "wikipedia"], default="ror",
+                    help="ror = authoritative registry (default & recommended); "
+                         "wikidata/wikipedia are community-edited fallbacks.")
     args = ap.parse_args()
 
     root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -125,13 +141,15 @@ def main():
         c = by_cc.get(cc)
         if not c:
             print(f"[skip] bilinmeyen ülke: {cc}"); continue
-        url = country_url(c["name_en"], cc)
         try:
-            if args.source == "wikidata":
+            if args.source == "ror":
+                import fetch_ror
+                raw_records = fetch_ror.fetch_universities(cc, c["name_tr"])
+            elif args.source == "wikidata":
                 import fetch_wikidata
                 raw_records = fetch_wikidata.fetch_universities(cc, c["name_tr"])
             else:
-                markup = ic.cached_get(url)
+                markup = ic.cached_get(country_url(c["name_en"], cc))
                 raw_records = parse_wiki_table(markup, cc, c["name_tr"])
         except Exception as e:  # network disabled or page missing
             print(f"[warn] {cc}: kaynak alınamadı ({e}). Ağ erişimi gerekli."); continue
